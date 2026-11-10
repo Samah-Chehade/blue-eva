@@ -76,5 +76,5 @@ npm run preview   # preview the production build
 
 ## Credits
 
-Course tutorials: *React Events, Hooks, useState, useEffect, useContext* and *JSON, React and Local Storage*.
-Fonts: Cormorant Garamond and DM Sans (Google Fonts). Product photos are AI-generated.
+Course tutorials: React Events, Hooks, useState, useEffect, useContext; JSON, React and Local Storage; React Books App; React Forms.
+Product photos were generated with Flow AI
