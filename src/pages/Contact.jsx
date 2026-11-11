@@ -59,7 +59,7 @@ function Contact({ onAddMessage }) {
         <form onSubmit={handleSubmit} noValidate>
           <div className="two">
             <div className="field">
-              <label htmlFor="cn">Name</label>
+              <div htmlFor="cn">Name</div>
               <input id="cn" value={name} onChange={(e) => setName(e.target.value)} />
               {errors.name && <p className="err">{errors.name}</p>}
             </div>
