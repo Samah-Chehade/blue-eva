@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ProductCard({ product }) {
   return (
     <div className="card">
-      <Link to={`/product/${product.id}`} className="img" aria-label={product.name}>
+      <Link to={`/product/${product.id}`} className="img" >
         <img src={product.image} alt={`${product.name} eau de parfum`}  />
       </Link>
 
