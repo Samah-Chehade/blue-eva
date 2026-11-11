@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -8,14 +8,14 @@ function Navigation() {
           Blue Eva
         </Link>
 
-        <nav aria-label="Main">
-          
-          <NavLink to="/" end>Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/collection">Collection</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
-        </nav>
-
+            <nav aria-label="Main">
+         
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/collection">Collection</Link>
+          <Link to="/contact">Contact</Link>
+ 
+</nav>
       </div>
     </header>
   );

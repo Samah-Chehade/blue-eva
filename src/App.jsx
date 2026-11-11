@@ -10,11 +10,15 @@ import ProductDetail from "./pages/ProductDetail";
 import Contact from "./pages/Contact";
 import { products, categories } from "./data/products";
 import "./App.css";
+ 
+
+// note storage_key is uesd to store massages in localStorage 
 
 const STORAGE_KEY = "eva-messages";
 
-
+// note json.parse() => convert data 
 function loadMessages() {
+
   try {
     const savedText = localStorage.getItem(STORAGE_KEY);
     if (savedText === null) {
@@ -31,7 +35,8 @@ function loadMessages() {
   }
 }
 
-// Save the messages as JSON text
+//  note Save the messages as JSON text
+
 function saveMessages(messages) {
   localStorage.setItem(
     STORAGE_KEY,
@@ -40,12 +45,12 @@ function saveMessages(messages) {
 }
 
 function App() {
-  // Read the saved messages when the app first starts.
+  // note  Read the saved messages when the app first starts
   const [messages, setMessages] = useState(
     () => loadMessages()
   );
 
-  // Add a message update React state and save it in localStorage.
+  // note (Add a message update React state and save it in localStorage)
   function handleAddMessage(newMessage) {
     const updatedMessages = [
       ...messages,
