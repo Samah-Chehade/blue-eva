@@ -24,7 +24,7 @@ function Collection({ products, categories }) {
         <p>Filter by who it's for, then open any bottle to see its notes.</p>
       </div>
 
-      <div className="chips" role="group" aria-label="Filter by category">
+      <div className="chips" role="group" >
         {categories.map((name) => (
           <button
             key={name}
