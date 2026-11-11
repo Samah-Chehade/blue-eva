@@ -64,7 +64,7 @@ function Contact({ onAddMessage }) {
               {errors.name && <p className="err">{errors.name}</p>}
             </div>
             <div className="field">
-              <label htmlFor="ce">Email</label>
+              <div htmlFor="ce">Email</div>
               <input
                 id="ce"
                 type="email"
@@ -76,7 +76,7 @@ function Contact({ onAddMessage }) {
           </div>
 
           <div className="field">
-            <label htmlFor="cm">Message</label>
+            <div htmlFor="cm">Message</div>
             <textarea
               id="cm"
               value={message}
