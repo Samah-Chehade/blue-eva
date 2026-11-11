@@ -56,23 +56,26 @@ npm run preview   # preview the production build
 - **GitHub Pages:** set `base: "/<repo-name>/"` in `vite.config.js` and replace `BrowserRouter` with
   `HashRouter` in `src/App.jsx`, because GitHub Pages cannot rewrite routes.
 
+
 ## Screenshots
 
-| Home | Collection |
-|---|---|
-| ![Home](docs/screenshots/home.png) | ![Collection](docs/screenshots/collection.png) |
+### Home
+![Home](docs/screenshots/home.png)
 
-| Product detail |
-|---|
-| ![Product detail](docs/screenshots/product.png) |
+### Collection
+![Collection](docs/screenshots/collection.png)
 
-| About | Contact |
-|---|---|
-| ![About](docs/screenshots/about.png) | ![Contact](docs/screenshots/contact.png) |
+### Product Detail
+![Product Detail](docs/screenshots/product.png)
 
-| Mobile |
-|---|
-| ![Home on mobile](docs/screenshots/home-mobile.png) |
+### About
+![About](docs/screenshots/about.png)
+
+### Contact
+![Contact](docs/screenshots/contact.png)
+
+### Mobile View
+![Home on Mobile](docs/screenshots/home-mobile.png)
 
 ## Credits
 
