@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function ProductCard({ product }) {
   return (
-    <article className="card">
+    <div className="card">
       <Link to={`/product/${product.id}`} className="img" aria-label={product.name}>
-        <img src={product.image} alt={`${product.name} eau de parfum`} loading="lazy" />
+        <img src={product.image} alt={`${product.name} eau de parfum`}  />
       </Link>
 
       <div className="info">
@@ -15,7 +15,7 @@ function ProductCard({ product }) {
           ${product.price50} <small>/ 50 ml</small>
         </span>
       </div>
-    </article>
+    </div>
   );
 }
 
