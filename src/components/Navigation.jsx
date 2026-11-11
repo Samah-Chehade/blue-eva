@@ -8,7 +8,7 @@ function Navigation() {
           Blue Eva
         </Link>
 
-            <nav aria-label="Main">
+            <nav>
          
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
